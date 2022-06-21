@@ -26,7 +26,7 @@ ul a {
 
 main {
     display: grid;
-    grid-template-columns: 15% 70% 15%;
+    grid-template-columns: 1fr 250px 1fr;
     grid-template-rows: 25% 50% 25%;
     height: 100vh;
 
@@ -37,8 +37,22 @@ h1 {
     text-align: center;
     font-family: 'Iceland', cursive;
     font-size: 80px;
-    grid-area: 2 / 2 / 2 / 2;
+    grid-area: 2 / 2 / 3 / 3;
     text-shadow: 2px 2px #ff0000, -2px -2px #ff0000, 2px -2px #ff0000, -2px 2px #ff0000;
+    width: 250px;
+    height: 250px;
+}
+
+.profile-img {
+    grid-area: 1 / 2 / 2/ 3;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.profile-img img {
+    width: 60%;
+    opacity: 0.6;
+    border-radius: 50px;
 }
 
 p {

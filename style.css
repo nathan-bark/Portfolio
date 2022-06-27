@@ -77,7 +77,7 @@ h1 {
 
 @media screen and (min-width: 580px) {
   ul a {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   .landing-main {
     grid-template-columns: 1fr 400px 1fr;
@@ -89,9 +89,6 @@ h1 {
     height: auto;
   }
 
-  .profile-img img {
-    width: 50%;
-  }
 }
 
 @media screen and (min-width: 896px) {

@@ -6,11 +6,13 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
+  color: antiquewhite;
+  
 }
 
 header {
   border-bottom: 2px solid #1c1c1c;
-  height: 80px;
+  height: 5rem;
 }
 
 ul {
@@ -23,14 +25,14 @@ ul {
 ul a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "Cabin Condensed", sans-serif;
   letter-spacing: 1px;
 }
 
 ul a:hover {
     color: #41ff00;
-    font-size: 25px;
+    font-size: 1.6rem;
 }
 
 li {
@@ -50,8 +52,8 @@ h1 {
   font-family: "Iceland", cursive;
   font-size: 80px;
   grid-area: 2 / 2 / 3 / 3;
-  text-shadow: 2px 2px #ff0000, -2px -2px #ff0000, 2px -2px #ff0000,
-    -2px 2px #ff0000;
+  text-shadow: 2px 2px 4px #ff0000, -2px -2px 4px #ff0000, 2px -2px 4px #ff0000,
+    -2px 2px 4px #ff0000;
   width: 250px;
   height: 250px;
 }
@@ -74,6 +76,8 @@ h1 {
   text-align: right;
   padding-right: 1rem;
 }
+
+
 
 @media screen and (min-width: 580px) {
   ul a {

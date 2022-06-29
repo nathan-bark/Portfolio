@@ -27,17 +27,34 @@
     <h2>Contact Details</h2>
     <div class="contacts">
       <p>
-        Please feel free to contact me by email <a href="mailto: nathanbark4@gmail.com">here</a> if you have any questions or for
-        enquiries.
+        Please feel free to contact me via the form below or by 
+        <a href="mailto: nathanbark4@gmail.com">email</a> if you have any
+        questions or for enquiries.
       </p>
 
-      <form action="https://getform.io/f/a428cfaa-55f7-4297-8900-565fefd3c7fb" method="post">
-        <label for="email">Email Address:</label>
-        <input type="email" name="email" required>
-        <label for="name">Your Name:</label>
-        <input type="text" name="name" required>
-        <label for="message">Your Message:</label>
-        <textarea name="message" id="" cols="40" rows="10" required></textarea>
+      <form
+        action="https://getform.io/f/a428cfaa-55f7-4297-8900-565fefd3c7fb"
+        method="post"
+      >
+        <div class="email">
+          <label for="email">Email Address:</label>
+          <input type="email" name="email" required />
+        </div>
+        <div class="name">
+          <label for="name">Your Name:</label>
+          <input type="text" name="name" required />
+        </div>
+        <div class="message">
+          <label for="message">Your Message:</label>
+          <textarea
+            name="message"
+            id=""
+            cols="40"
+            rows="10"
+            required
+          ></textarea>
+          <input type="submit" value="Send" class="submit-btn">
+        </div>
       </form>
     </div>
   </body>

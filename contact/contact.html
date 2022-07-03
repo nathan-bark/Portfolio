@@ -24,6 +24,7 @@
         </ul>
       </nav>
     </header>
+    <p class="opentag">&lth1&gt</p>
     <h2>Contact Details</h2>
     <div class="contacts">
       <p>
@@ -38,24 +39,31 @@
       >
         <div class="email">
           <label for="email">Email Address:</label>
-          <input type="email" name="email" required />
+          <input type="email" name="email" id="email" required minlength="3" />
+          <p class="alert" id="warning-email">Please enter a valid email address!</p>
         </div>
         <div class="name">
           <label for="name">Your Name:</label>
-          <input type="text" name="name" required />
+          <input type="text" name="name" id="name" required minlength="3" />
+          <p class="alert" id="warning-name">Please enter your name!</p>
         </div>
         <div class="message">
           <label for="message">Your Message:</label>
           <textarea
             name="message"
-            id=""
+            id="message"
             cols="40"
             rows="10"
             required
+            minlength="20"
           ></textarea>
-          <input type="submit" value="Send" class="submit-btn">
+          <p class="alert" id="warning-message">Please enter a message!</p>
+          </div>
+          <input type="submit" value="Send" id="send" class="submit-btn">
         </div>
+        <p class="closetag">&lt/h1&gt</p>
       </form>
-    </div>
+    
+    <script type="text/javascript" src="scripts.js"></script>
   </body>
 </html>

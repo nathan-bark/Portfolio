@@ -110,8 +110,8 @@ form {
 }
 
  input:focus, textarea:focus {
-  box-shadow: 2px 2px 4px #ff0000, -2px -2px 4px #ff0000, 2px -2px 4px #ff0000,
-  -2px 2px 4px #ff0000;
+  box-shadow: 2px 2px 4px #41ff00, -2px -2px 4px #41ff00, 2px -2px 4px #41ff00,
+  -2px 2px 4px #41ff00;
 }
 
 .name input {
@@ -150,6 +150,7 @@ form {
   width: 250px;
   padding: 10px;
   margin-top: 30px;
+  margin-bottom: 30px;
   border-radius: 20px;
   outline: none;
   border: none;
@@ -172,6 +173,12 @@ form {
   transform: scale(1);
   background-color: hwb(105 67% 0%);
   color: #2a2a2a;
+}
+
+.alert {
+  display: none;
+  color: #ff0000;
+  font-size: 12px;
 }
 
 

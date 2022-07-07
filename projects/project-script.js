@@ -53,6 +53,6 @@ function arrowSwitch() {
 
 
 
-document.getElementById('pod-click').addEventListener('click', podSwitch);
+document.getElementById('pod-btn').addEventListener('click', podSwitch);
 document.getElementById('club-btn').addEventListener('click', clubSwitch);
 document.getElementById('arrow-btn').addEventListener('click', arrowSwitch);

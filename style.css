@@ -1,7 +1,7 @@
 /* general */
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -34,12 +34,12 @@ ul a {
 }
 
 ul a:hover {
-    color: #41ff00;
-    font-size: 1.6rem;
+  color: #41ff00;
+  font-size: 1.6rem;
 }
 
 li {
-    width: 87px;
+  width: 87px;
 }
 
 /* homepage */
@@ -96,9 +96,10 @@ form {
   margin-top: 10%;
 }
 
-.email, .name, .message {
+.email,
+.name,
+.message {
   width: 300px;
-
 }
 
 .email input {
@@ -111,12 +112,13 @@ form {
   border: none;
   background-color: #ebebeb;
   color: #2a2a2a;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
- input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   box-shadow: 2px 2px 4px #41ff00, -2px -2px 4px #41ff00, 2px -2px 4px #41ff00,
-  -2px 2px 4px #41ff00;
+    -2px 2px 4px #41ff00;
 }
 
 .name input {
@@ -129,7 +131,7 @@ form {
   border: none;
   background-color: #ebebeb;
   color: #2a2a2a;
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .message textarea {
@@ -137,7 +139,7 @@ form {
   margin-top: 5px;
   padding: 5px;
   padding-left: 10px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   outline: none;
   border: none;
   background-color: #ebebeb;
@@ -202,7 +204,7 @@ h2 {
   border-radius: 50%;
   opacity: 0.7;
   box-shadow: 2px 2px 4px #ff0000, -2px -2px 4px #ff0000, 2px -2px 4px #ff0000,
-  -2px 2px 4px #ff0000;
+    -2px 2px 4px #ff0000;
 }
 
 h3 {
@@ -240,26 +242,56 @@ p {
 .pod img {
   max-width: 90%;
   max-height: 400px;
-  box-shadow: 2px 2px 4px #ff0000, -2px -2px 4px #ff0000, 2px -2px 4px #ff0000,
-  -2px 2px 4px #ff0000; 
+  
 }
 
 .club img {
   max-width: 90%;
   max-height: 600px;
-  box-shadow: 2px 2px 4px #ff0000, -2px -2px 4px #ff0000, 2px -2px 4px #ff0000,
-  -2px 2px 4px #ff0000;
+  
 }
 
 .arrow img {
   max-width: 90%;
   max-height: 700px;
-  box-shadow: 2px 2px 4px #ff0000, -2px -2px 4px #ff0000, 2px -2px 4px #ff0000,
-  -2px 2px 4px #ff0000;
+  
+}
+
+.image-btn {
+  width: 250px;
+  padding: 8px;
+  border-radius: 10px;
+  margin-top: 15px;
+  box-shadow: 2px 2px 4px #41ff00;
+  background-color: #cdebc3;
+  border: none;
+  font-size: 14px;
+  font-family: inherit;
+  letter-spacing: inherit;
+  cursor: pointer;
+}
+
+.image-btn:hover {
+  transform: scale(0.9);
+  box-shadow: none;
+}
+
+.image-btn:active {
+  transform: scale(1);
+  background-color: hwb(105 67% 0%);
+  color: #2a2a2a;
+}
+
+p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p a:hover {
+  color: #ff0000;
 }
 
 /* media queries */
-
 
 @media screen and (min-width: 580px) {
   ul a {
@@ -274,11 +306,9 @@ p {
     width: 25rem;
     height: auto;
   }
-  .personal p{
+  .personal p {
     font-size: 1.1rem;
-    
-}
-
+  }
 }
 
 @media screen and (min-width: 896px) {
@@ -301,22 +331,21 @@ p {
     grid-template-columns: 10% 40% 40% 10%;
     grid-template-rows: 5% 45% 35% 15%;
     align-content: center;
-}
+  }
 
-.profile-pic {
+  .profile-pic {
     grid-area: 1 / 3 / 2 / 4;
-    
-}
+  }
 
-.personal {
-   grid-area: 1 / 2 / 4 / 3 ;
-}
+  .personal {
+    grid-area: 1 / 2 / 4 / 3;
+  }
 
-.skills {
+  .skills {
     grid-area: 2 / 3 / 3 / 4;
-}
+  }
 
-.profile-pic {
+  .profile-pic {
     margin-top: 1rem;
-}
+  }
 }

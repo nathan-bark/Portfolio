@@ -237,9 +237,25 @@ p {
 
 /* projects page */
 
-.project img {
-  width: 90%;
-  height: auto;
+.pod img {
+  max-width: 90%;
+  max-height: 400px;
+  box-shadow: 2px 2px 4px #ff0000, -2px -2px 4px #ff0000, 2px -2px 4px #ff0000,
+  -2px 2px 4px #ff0000; 
+}
+
+.club img {
+  max-width: 90%;
+  max-height: 600px;
+  box-shadow: 2px 2px 4px #ff0000, -2px -2px 4px #ff0000, 2px -2px 4px #ff0000,
+  -2px 2px 4px #ff0000;
+}
+
+.arrow img {
+  max-width: 90%;
+  max-height: 700px;
+  box-shadow: 2px 2px 4px #ff0000, -2px -2px 4px #ff0000, 2px -2px 4px #ff0000,
+  -2px 2px 4px #ff0000;
 }
 
 /* media queries */

@@ -6,7 +6,7 @@ const arrow = document.getElementById('arrow-shot');
 
 //change pod images
 let podCount = 0;
-const podImages = ['/images/pod-landing-page.png', '/images/pod-mobile.png', '/images/pod-tablet.png'];
+const podImages = ['images/pod-landing-page.png', 'images/pod-mobile.png', 'images/pod-tablet.png'];
 
 function podSwitch() {
 
@@ -22,7 +22,7 @@ function podSwitch() {
 // change club images
 
 let clubCount = 0;
-const clubImages = ['/images/club-page.png', '/images/club-mobile.png', '/images/club-tablet.png'];
+const clubImages = ['images/club-page.png', 'images/club-mobile.png', 'images/club-tablet.png'];
 
 function clubSwitch() {
 
@@ -38,7 +38,7 @@ function clubSwitch() {
 // change arrow images
 
 let arrowCount = 0;
-const arrowImages = ['/images/arrow-energy.png', '/images/arrow-mobile.png', '/images/arrow-tablet.png'];
+const arrowImages = ['images/arrow-energy.png', 'images/arrow-mobile.png', 'images/arrow-tablet.png'];
 
 function arrowSwitch() {
 

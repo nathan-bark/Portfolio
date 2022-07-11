@@ -88,6 +88,12 @@ h1 {
   margin: auto;
 }
 
+.socials {
+  width:fit-content;
+  margin: auto;
+  background-color: antiquewhite;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -309,6 +315,10 @@ p a:hover {
   .personal p {
     font-size: 1.1rem;
   }
+
+  form {
+    margin-top: 5%;
+  }
 }
 
 @media screen and (min-width: 896px) {
@@ -348,4 +358,36 @@ p a:hover {
   .profile-pic {
     margin-top: 1rem;
   }
+
+  /* projects */
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .project h3, .project p {
+    order: -3;
+  }
+
+  .links {
+    order: -2;
+  }
+
+  .project button {
+    order: -1;
+    margin-bottom: 20px;
+  }
+
+  .project img {
+    margin-bottom: 30px;
+  }
+
 }
